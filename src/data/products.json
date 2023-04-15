@@ -1,0 +1,97 @@
+[
+  {
+    "id": 1,
+    "name": "Apple iPhone 13 Pro Max",
+    "description": "The most advanced iPhone ever, with a stunning Super Retina XDR display and the powerful A15 Bionic chip.",
+    "price": 1099.0,
+    "currency": "USD",
+    "category": "Phones",
+    "href": "/apple-iphone-13-pro-max",
+    "images": [
+      {
+        "url": "https://images.unsplash.com/photo-1671038374738-e0525bbc36f6?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80",
+        "alt": "iPhone 13 Pro Max Image"
+      },
+      {
+        "url": "https://images.unsplash.com/photo-1664478546384-d57ffe74a78c?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80",
+        "alt": "iPhone 13 Pro Max Image"
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "name": "Samsung Galaxy S21 Ultra",
+    "description": "Experience the ultimate in smartphone technology with the Samsung Galaxy S21 Ultra, featuring an incredible camera and 5G connectivity.",
+    "price": 1299.99,
+    "currency": "USD",
+    "category": "Phones",
+    "href": "/samsung-galaxy-s21-ultra",
+    "images": [
+      {
+        "url": "https://images.unsplash.com/photo-1610792516820-2bff50c652a2?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80",
+        "alt": "Galaxy S22 Ultra Image"
+      },
+      {
+        "url": "https://images.unsplash.com/photo-1610792516286-524726503fb2?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80",
+        "alt": "Galaxy S22 Ultra Image"
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "name": "Steam Deck",
+    "description": "All-in-one portable PC gaming.",
+    "price": 399.0,
+    "currency": "USD",
+    "category": "Entertainment",
+    "href": "/steam-deck",
+    "images": [
+      {
+        "url": "https://images.unsplash.com/photo-1665608130535-d9a71bce53b9?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1480&q=80",
+        "alt": "Steam Deck Image"
+      },
+      {
+        "url": "https://images.unsplash.com/photo-1656662962127-d8344d924d74?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80",
+        "alt": "Steam Deck Image"
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "name": "Apple MacBook Pro 16-inch",
+    "description": "The ultimate MacBook Pro, with a stunning 16-inch Retina display and the powerful M1 Pro chip.",
+    "price": 2499.0,
+    "currency": "USD",
+    "category": "Laptops",
+    "href": "/apple-macbook-pro-16-inch",
+    "images": [
+      {
+        "url": "https://images.unsplash.com/photo-1539376248633-cf94fa8b7bd8?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80",
+        "alt": "MacBook Pro Image"
+      },
+      {
+        "url": "https://images.unsplash.com/photo-1525547719571-a2d4ac8945e2?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=928&q=80",
+        "alt": "MacBook Pro Image"
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "name": "Microsoft Surface Pro 9",
+    "description": "Surface Pro 9 gives you the tablet flexibility you want and the laptop performance and battery life you need to move through your day — all in one ultra-portable device",
+    "price": 999.99,
+    "currency": "USD",
+    "category": "Laptops",
+    "href": "/microsoft-surface-pro-9",
+    "images": [
+      {
+        "url": "https://images.unsplash.com/photo-1617780421515-08fae9caa171?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1332&q=80",
+        "alt": "Surface Laptop Image"
+      },
+      {
+        "url": "https://images.unsplash.com/photo-1617780421544-c5575a324c47?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1332&q=80",
+        "alt": "Surface Laptop Image"
+      }
+    ]
+  }
+]
