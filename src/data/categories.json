@@ -3,18 +3,18 @@
     "id": 2,
     "name": "Phones",
     "href": "/phones",
-    "imageSrc": "/src/images/phones-category.png"
+    "imageSrc": "/images/phones-category.png"
   },
   {
     "id": 1,
     "name": "Entertainment",
     "href": "/entertainment",
-    "imageSrc": "/src/images/entertainment-category.png"
+    "imageSrc": "/images/entertainment-category.png"
   },
   {
     "id": 3,
     "name": "Laptops",
     "href": "/laptops",
-    "imageSrc": "/src/images/laptops-category.png"
+    "imageSrc": "/images/laptops-category.png"
   }
 ]

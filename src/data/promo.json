@@ -6,7 +6,7 @@
     "href": "/about"
   },
   "image": {
-    "src": "./src/images/all-the-gadgets.jpg",
+    "src": "/images/all-the-gadgets.jpg",
     "alt": ""
   }
 }

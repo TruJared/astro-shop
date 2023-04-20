@@ -18,7 +18,7 @@ This is a simple e-commerce site I created to help me learn the [Astro](https://
 
 ### Pages
 
-- [ ] Home
+- [x] Home
 - [ ] PDP
 - [ ] PLP
 - [ ] Cart
