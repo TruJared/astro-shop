@@ -20,6 +20,7 @@ function classNames(...classes: string[]) {
 
 export default function Navigation(props: Props) {
   const { navigation } = props;
+
   return (
     <Disclosure as="nav" className="bg-primary-800">
       {({ open }) => (
@@ -56,19 +57,19 @@ export default function Navigation(props: Props) {
                 </div>
                 <div className="hidden sm:ml-6 sm:block">
                   <div className="flex space-x-4">
-                    {navigation.map((item) => (
+                    {navigation.map((o) => (
                       <a
-                        key={item.name}
-                        href={item.href}
+                        key={o.name}
+                        href={o.href}
                         className={classNames(
-                          item.current
+                          o.current
                             ? "underline underline-offset-4 decoration-accent-300 decoration-2 text-gray-300"
                             : "text-gray-300 hover:underline hover:underline-offset-4 hover:decoration-accent-300 hover:decoration-2 hover:text-white",
                           "rounded-md px-3 py-2 mt-2 text-sm font-medium"
                         )}
-                        aria-current={item.current ? "page" : undefined}
+                        aria-current={o.current ? "page" : undefined}
                       >
-                        {item.name}
+                        {o.name}
                       </a>
                     ))}
                   </div>

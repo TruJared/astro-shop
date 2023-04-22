@@ -21,6 +21,10 @@ const navigation = products
   ); // remove duplicates
 
 navigation.push({ name: "About", href: "/about", current: false });
+
+// won't work with redirects... good enough for demo //
+const currentPage = navigation.find((n) => n.href === Astro.url.pathname);
+if(currentPage) currentPage.current = true;
 ---
 
 <!DOCTYPE html>
