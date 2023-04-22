@@ -13,11 +13,12 @@ import reviews from "../data/reviews.json";
 import exclusiveOffer from "../data/exclusive-offer.json";
 
 
-// using sort to randomize the products on each build //
+// using sort to randomize the products on each build also add 'product' to slug //
 const productsProp = products
   .map((p) => {
     return {
       ...p,
+      href:`product/${p.href}`,
       imageSrc: p.images.sort((a, b) => 0.5 - Math.random())[0].url,
     };
   })
@@ -40,7 +41,7 @@ const productsProp = products
       description={promo.description}
       button={promo.cta}
     />
-    <AccessoryBlocks products={productsProp} />
+    <AccessoryBlocks title="Top Selling Products" products={productsProp} />
     {/* load on visible to support modal */}
     <Reviews testimonials={reviews} offer={exclusiveOffer} client:idle client:visible/>
   </main>

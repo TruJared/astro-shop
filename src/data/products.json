@@ -2,11 +2,13 @@
   {
     "id": 1,
     "name": "Apple iPhone 13 Pro Max",
+    "rating": 5,
     "description": "The most advanced iPhone ever, with a stunning Super Retina XDR display and the powerful A15 Bionic chip.",
+    "longDescription": "Skate ipsum dolor sit amet, yeah poseur casper nosebone downhill wax coping. Tom Knox salad grind Saran Wrap ollie hole Christ air dude shoveit smith grind. Hang up cess slide air axle set rail slide boardslide manual. 270 Girl stoked 720 boned out berm handplant 180. Full-cab transfer rail slide kidney noseblunt slide bail backside. Coffin 50-50 Johnny Rad smith grind switch mini ramp locals g-turn. Death box bluntslide ho-ho handplant gnar bucket nose-bump Jai Alai Banks nosepicker. Pivot 180 gnar bucket ledge death box Tracker noseblunt slide Steve Olson. Freestyle chicken wing grind helipop flypaper frontside kick-nose.",
     "price": 1099.0,
     "currency": "USD",
     "category": "Phones",
-    "href": "/apple-iphone-13-pro-max",
+    "href": "apple-iphone-13-pro-max",
     "images": [
       {
         "url": "https://images.unsplash.com/photo-1671038374738-e0525bbc36f6?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80",
@@ -16,16 +18,57 @@
         "url": "https://images.unsplash.com/photo-1664478546384-d57ffe74a78c?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80",
         "alt": "iPhone 13 Pro Max Image"
       }
+    ],
+    "details": [
+      {
+        "name": "Features",
+        "items": [
+          "Feature 1",
+          "Feature 2",
+          "Feature 3",
+          "Feature 4",
+          "Feature 5"
+        ]
+      },
+      {
+        "name": "Specifications",
+        "items": [
+          "Specification 1",
+          "Specification 2",
+          "Specification 3",
+          "Specification 4",
+          "Specification 5"
+        ]
+      }
+    ],
+    "colors": [
+      {
+        "name": "Washed Black",
+        "bgColor": "bg-gray-700",
+        "selectedColor": "ring-gray-700"
+      },
+      {
+        "name": "White",
+        "bgColor": "bg-white",
+        "selectedColor": "ring-gray-400"
+      },
+      {
+        "name": "Washed Gray",
+        "bgColor": "bg-gray-500",
+        "selectedColor": "ring-gray-500"
+      }
     ]
   },
   {
     "id": 2,
     "name": "Samsung Galaxy S21 Ultra",
+    "rating": 3,
     "description": "Experience the ultimate in smartphone technology with the Samsung Galaxy S21 Ultra, featuring an incredible camera and 5G connectivity.",
+    "longDescription": "Skate ipsum dolor sit amet, yeah poseur casper nosebone downhill wax coping. Tom Knox salad grind Saran Wrap ollie hole Christ air dude shoveit smith grind. Hang up cess slide air axle set rail slide boardslide manual. 270 Girl stoked 720 boned out berm handplant 180. Full-cab transfer rail slide kidney noseblunt slide bail backside. Coffin 50-50 Johnny Rad smith grind switch mini ramp locals g-turn. Death box bluntslide ho-ho handplant gnar bucket nose-bump Jai Alai Banks nosepicker. Pivot 180 gnar bucket ledge death box Tracker noseblunt slide Steve Olson. Freestyle chicken wing grind helipop flypaper frontside kick-nose.",
     "price": 1299.99,
     "currency": "USD",
     "category": "Phones",
-    "href": "/samsung-galaxy-s21-ultra",
+    "href": "samsung-galaxy-s21-ultra",
     "images": [
       {
         "url": "https://images.unsplash.com/photo-1610792516820-2bff50c652a2?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80",
@@ -35,16 +78,57 @@
         "url": "https://images.unsplash.com/photo-1610792516286-524726503fb2?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80",
         "alt": "Galaxy S22 Ultra Image"
       }
+    ],
+    "details": [
+      {
+        "name": "Features",
+        "items": [
+          "Feature 1",
+          "Feature 2",
+          "Feature 3",
+          "Feature 4",
+          "Feature 5"
+        ]
+      },
+      {
+        "name": "Specifications",
+        "items": [
+          "Specification 1",
+          "Specification 2",
+          "Specification 3",
+          "Specification 4",
+          "Specification 5"
+        ]
+      }
+    ],
+    "colors": [
+      {
+        "name": "Washed Black",
+        "bgColor": "bg-gray-700",
+        "selectedColor": "ring-gray-700"
+      },
+      {
+        "name": "White",
+        "bgColor": "bg-white",
+        "selectedColor": "ring-gray-400"
+      },
+      {
+        "name": "Washed Gray",
+        "bgColor": "bg-gray-500",
+        "selectedColor": "ring-gray-500"
+      }
     ]
   },
   {
     "id": 3,
     "name": "Steam Deck",
+    "rating": 5,
     "description": "All-in-one portable PC gaming.",
+    "longDescription": "Skate ipsum dolor sit amet, yeah poseur casper nosebone downhill wax coping. Tom Knox salad grind Saran Wrap ollie hole Christ air dude shoveit smith grind. Hang up cess slide air axle set rail slide boardslide manual. 270 Girl stoked 720 boned out berm handplant 180. Full-cab transfer rail slide kidney noseblunt slide bail backside. Coffin 50-50 Johnny Rad smith grind switch mini ramp locals g-turn. Death box bluntslide ho-ho handplant gnar bucket nose-bump Jai Alai Banks nosepicker. Pivot 180 gnar bucket ledge death box Tracker noseblunt slide Steve Olson. Freestyle chicken wing grind helipop flypaper frontside kick-nose..",
     "price": 399.0,
     "currency": "USD",
     "category": "Entertainment",
-    "href": "/steam-deck",
+    "href": "steam-deck",
     "images": [
       {
         "url": "https://images.unsplash.com/photo-1665608130535-d9a71bce53b9?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1480&q=80",
@@ -54,16 +138,57 @@
         "url": "https://images.unsplash.com/photo-1656662962127-d8344d924d74?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80",
         "alt": "Steam Deck Image"
       }
+    ],
+    "colors": [
+      {
+        "name": "Washed Black",
+        "bgColor": "bg-gray-700",
+        "selectedColor": "ring-gray-700"
+      },
+      {
+        "name": "White",
+        "bgColor": "bg-white",
+        "selectedColor": "ring-gray-400"
+      },
+      {
+        "name": "Washed Gray",
+        "bgColor": "bg-gray-500",
+        "selectedColor": "ring-gray-500"
+      }
+    ],
+    "details": [
+      {
+        "name": "Features",
+        "items": [
+          "Feature 1",
+          "Feature 2",
+          "Feature 3",
+          "Feature 4",
+          "Feature 5"
+        ]
+      },
+      {
+        "name": "Specifications",
+        "items": [
+          "Specification 1",
+          "Specification 2",
+          "Specification 3",
+          "Specification 4",
+          "Specification 5"
+        ]
+      }
     ]
   },
   {
     "id": 4,
     "name": "Apple MacBook Pro 16-inch",
+    "rating": 4,
     "description": "The ultimate MacBook Pro, with a stunning 16-inch Retina display and the powerful M1 Pro chip.",
+    "longDescription": "Skate ipsum dolor sit amet, yeah poseur casper nosebone downhill wax coping. Tom Knox salad grind Saran Wrap ollie hole Christ air dude shoveit smith grind. Hang up cess slide air axle set rail slide boardslide manual. 270 Girl stoked 720 boned out berm handplant 180. Full-cab transfer rail slide kidney noseblunt slide bail backside. Coffin 50-50 Johnny Rad smith grind switch mini ramp locals g-turn. Death box bluntslide ho-ho handplant gnar bucket nose-bump Jai Alai Banks nosepicker. Pivot 180 gnar bucket ledge death box Tracker noseblunt slide Steve Olson. Freestyle chicken wing grind helipop flypaper frontside kick-nose.",
     "price": 2499.0,
     "currency": "USD",
     "category": "Laptops",
-    "href": "/apple-macbook-pro-16-inch",
+    "href": "apple-macbook-pro-16-inch",
     "images": [
       {
         "url": "https://images.unsplash.com/photo-1539376248633-cf94fa8b7bd8?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80",
@@ -73,16 +198,57 @@
         "url": "https://images.unsplash.com/photo-1525547719571-a2d4ac8945e2?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=928&q=80",
         "alt": "MacBook Pro Image"
       }
+    ],
+    "colors": [
+      {
+        "name": "Washed Black",
+        "bgColor": "bg-gray-700",
+        "selectedColor": "ring-gray-700"
+      },
+      {
+        "name": "White",
+        "bgColor": "bg-white",
+        "selectedColor": "ring-gray-400"
+      },
+      {
+        "name": "Washed Gray",
+        "bgColor": "bg-gray-500",
+        "selectedColor": "ring-gray-500"
+      }
+    ],
+    "details": [
+      {
+        "name": "Features",
+        "items": [
+          "Feature 1",
+          "Feature 2",
+          "Feature 3",
+          "Feature 4",
+          "Feature 5"
+        ]
+      },
+      {
+        "name": "Specifications",
+        "items": [
+          "Specification 1",
+          "Specification 2",
+          "Specification 3",
+          "Specification 4",
+          "Specification 5"
+        ]
+      }
     ]
   },
   {
     "id": 5,
     "name": "Microsoft Surface Pro 9",
-    "description": "Surface Pro 9 gives you the tablet flexibility you want and the laptop performance and battery life you need to move through your day — all in one ultra-portable device",
+    "rating": 3,
+    "description": "Surface Pro 9 gives you the tablet flexibility you want and the laptop performance and battery life you need to move through your day — all in one ultra-portable device.",
+    "longDescription": "SSkate ipsum dolor sit amet, yeah poseur casper nosebone downhill wax coping. Tom Knox salad grind Saran Wrap ollie hole Christ air dude shoveit smith grind. Hang up cess slide air axle set rail slide boardslide manual. 270 Girl stoked 720 boned out berm handplant 180. Full-cab transfer rail slide kidney noseblunt slide bail backside. Coffin 50-50 Johnny Rad smith grind switch mini ramp locals g-turn. Death box bluntslide ho-ho handplant gnar bucket nose-bump Jai Alai Banks nosepicker. Pivot 180 gnar bucket ledge death box Tracker noseblunt slide Steve Olson. Freestyle chicken wing grind helipop flypaper frontside kick-nose.",
     "price": 999.99,
     "currency": "USD",
     "category": "Laptops",
-    "href": "/microsoft-surface-pro-9",
+    "href": "microsoft-surface-pro-9",
     "images": [
       {
         "url": "https://images.unsplash.com/photo-1617780421515-08fae9caa171?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1332&q=80",
@@ -91,6 +257,45 @@
       {
         "url": "https://images.unsplash.com/photo-1617780421544-c5575a324c47?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1332&q=80",
         "alt": "Surface Laptop Image"
+      }
+    ],
+    "colors": [
+      {
+        "name": "Washed Black",
+        "bgColor": "bg-gray-700",
+        "selectedColor": "ring-gray-700"
+      },
+      {
+        "name": "White",
+        "bgColor": "bg-white",
+        "selectedColor": "ring-gray-400"
+      },
+      {
+        "name": "Washed Gray",
+        "bgColor": "bg-gray-500",
+        "selectedColor": "ring-gray-500"
+      }
+    ],
+    "details": [
+      {
+        "name": "Features",
+        "items": [
+          "Feature 1",
+          "Feature 2",
+          "Feature 3",
+          "Feature 4",
+          "Feature 5"
+        ]
+      },
+      {
+        "name": "Specifications",
+        "items": [
+          "Specification 1",
+          "Specification 2",
+          "Specification 3",
+          "Specification 4",
+          "Specification 5"
+        ]
       }
     ]
   }
