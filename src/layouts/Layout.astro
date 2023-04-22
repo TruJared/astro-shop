@@ -23,8 +23,8 @@ const navigation = products
 navigation.push({ name: "About", href: "/about", current: false });
 
 // won't work with redirects... good enough for demo //
-const currentPage = navigation.find((n) => n.href === Astro.url.pathname);
-if(currentPage) currentPage.current = true;
+const { pathname } = Astro.url;
+
 ---
 
 <!DOCTYPE html>
@@ -37,7 +37,7 @@ if(currentPage) currentPage.current = true;
     <title>{title}</title>
   </head>
   <body class="h-full">
-    <Nav navigation={navigation} client:load />
+    <Nav navigation={navigation} pathname={pathname} client:load />
     <slot />
     <Footer />
   </body>

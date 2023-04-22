@@ -4,6 +4,7 @@ export interface Props {
     href: string;
     current: boolean;
   }[];
+  pathname: string;
 }
 
 import { Disclosure } from "@headlessui/react";
@@ -19,7 +20,9 @@ function classNames(...classes: string[]) {
 }
 
 export default function Navigation(props: Props) {
-  const { navigation } = props;
+  const { navigation, pathname } = props;
+  const currentPage = navigation.find((n) => n.href === pathname);
+  if (currentPage) currentPage.current = true;
 
   return (
     <Disclosure as="nav" className="bg-primary-800">
@@ -76,22 +79,32 @@ export default function Navigation(props: Props) {
                 </div>
               </div>
               <div className="absolute inset-y-0 right-0 flex items-center pr-2 sm:static sm:inset-auto sm:ml-6 sm:pr-0">
-                <button
-                  type="button"
-                  className="rounded-full bg-secondary-800 p-1 text-gray-400 hover:text-accent-300 focus:text-accent-300 focus:outline-none focus:ring-2 focus:ring-accent-300 focus:ring-offset-2 focus:ring-offset-secondary-800"
+                <a
+                  href="/login"
+                  className={classNames(
+                    pathname === "/login"
+                      ? " text-accent-300 outline-none ring-2 ring-accent-300 ring-offset-2 ring-offset-secondary-800"
+                      : "text-gray-400 hover:text-accent-300",
+                    "rounded-full bg-secondary-800 p-1 hidden sm:block"
+                  )}
                 >
                   <span className="sr-only">View notifications</span>
                   <UserCircleIcon className="h-6 w-6" aria-hidden="true" />
-                </button>
+                </a>
               </div>
               <div className="absolute inset-y-0 right-0 flex items-center pr-2 sm:static sm:inset-auto sm:ml-6 sm:pr-0">
-                <button
-                  type="button"
-                  className="rounded-full bg-secondary-800 p-1 text-gray-400 hover:text-accent-300 focus:text-accent-300 focus:outline-none focus:ring-2 focus:ring-accent-300 focus:ring-offset-2 focus:ring-offset-secondary-800"
+                <a
+                  href="cart"
+                  className={classNames(
+                    pathname === "/cart"
+                      ? " text-accent-300 outline-none ring-2 ring-accent-300 ring-offset-2 ring-offset-secondary-800"
+                      : "ring-0 text-gray-400 hover:text-accent-300",
+                    "rounded-full bg-secondary-800 p-1 "
+                  )}
                 >
                   <span className="sr-only">View notifications</span>
                   <ShoppingCartIcon className="h-6 w-6" aria-hidden="true" />
-                </button>
+                </a>
               </div>
             </div>
           </div>
@@ -114,6 +127,22 @@ export default function Navigation(props: Props) {
                   {item.name}
                 </Disclosure.Button>
               ))}
+              {open && (
+                <Disclosure.Button
+                  key="account"
+                  as="a"
+                  href="/login"
+                  className={classNames(
+                    pathname === "/login"
+                      ? "bg-accent-300 text-gray-700"
+                      : "text-gray-300 hover:bg-accent-300 hover:text-gray-700",
+                    "block rounded-md px-3 py-2 text-base font-medium"
+                  )}
+                  aria-current={open ? "page" : undefined}
+                >
+                  Account
+                </Disclosure.Button>
+              )}
             </div>
           </Disclosure.Panel>
         </>
