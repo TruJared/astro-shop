@@ -39,7 +39,7 @@ export default function FeatureRows(props: Props) {
                   />
                 </div>
                 <h3 className="mt-3 text-xl text-center text-gray-700">
-                  <a href={category.href}>
+                  <a href={category.href} rel="prefetch">
                     <span className="absolute inset-0" />
                     {category.name}
                   </a>

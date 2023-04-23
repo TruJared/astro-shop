@@ -43,14 +43,14 @@ export default function Navigation(props: Props) {
               </div>
               <div className="flex flex-1 items-center justify-center sm:items-stretch sm:justify-start">
                 <div className="flex flex-shrink-0 items-center">
-                  <a href="/">
+                  <a href="/" rel="prefetch">
                     <img
                       className="block max-h-16 w-auto lg:hidden"
                       src="/images/alogo-2.png"
                       alt="Your Company"
                     />
                   </a>
-                  <a href="/">
+                  <a href="/" rel="prefetch">
                     <img
                       className="hidden h-16 w-auto lg:block"
                       src="/images/alogo-2.png"
@@ -64,6 +64,7 @@ export default function Navigation(props: Props) {
                       <a
                         key={o.name}
                         href={o.href}
+                        rel="prefetch"
                         className={classNames(
                           o.current
                             ? "underline underline-offset-4 decoration-accent-300 decoration-2 text-gray-300"
