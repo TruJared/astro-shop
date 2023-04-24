@@ -12,20 +12,27 @@ import promo from "../data/promo.json";
 import reviews from "../data/reviews.json";
 import exclusiveOffer from "../data/exclusive-offer.json";
 
+// correct href structure //
+const mappedCategories = categories.map((cat) => {
+  return {
+    ...cat,
+    href: `/category/${cat.href}`,
+  };
+});
 
 // using sort to randomize the products on each build also add 'product' to slug //
 const productsProp = products
   .map((p) => {
     return {
       ...p,
-      href:`product/${p.href}`,
+      href: `product/${p.href}`,
       imageSrc: p.images.sort((a, b) => 0.5 - Math.random())[0].url,
     };
   })
   .sort((a, b) => 0.5 - Math.random())
   .slice(0, 4);
-
 ---
+
 <Layout title="Astro Shop">
   <Hero
     cta={hero.cta}
@@ -34,7 +41,7 @@ const productsProp = products
     heroImage={hero.heroImage}
   />
   <main>
-    <FeatureRow categories={categories} />
+    <FeatureRow categories={mappedCategories} />
     <Promo
       backgroundImage={promo.image.src}
       heading={promo.heading}
@@ -43,6 +50,11 @@ const productsProp = products
     />
     <AccessoryBlocks title="Top Selling Products" products={productsProp} />
     {/* load on visible to support modal */}
-    <Reviews testimonials={reviews} offer={exclusiveOffer} client:idle client:visible/>
+    <Reviews
+      testimonials={reviews}
+      offer={exclusiveOffer}
+      client:idle
+      client:visible
+    />
   </main>
 </Layout>

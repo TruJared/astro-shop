@@ -1,0 +1,25 @@
+---
+import Layout from "../../layouts/Layout.astro";
+import Header from "../../components/Header.tsx";
+
+
+import categories from "../../data/categories.json";
+
+export function getStaticPaths() {
+  return categories.map((category) => ({
+    params: {
+      slug: category.href,
+    },
+    props: {
+      category,
+    },
+  }));
+}
+
+const {category} = Astro.props;
+---
+
+<Layout title={category.name}>
+  <Header title={category.name} />
+
+</Layout>

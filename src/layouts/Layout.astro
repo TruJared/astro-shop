@@ -12,7 +12,7 @@ const { title } = Astro.props;
 const navigation = products
   .map((p) => ({
     name: p.category,
-    href: `/${p.category}`,
+    href: `/category/${p.category.toLowerCase()}`,
     current: false,
   }))
   .filter(

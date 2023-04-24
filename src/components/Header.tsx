@@ -1,6 +1,6 @@
 export interface Props {
   title: string;
-  description: string;
+  description?: string;
 }
 
 export default function Header(props: Props) {

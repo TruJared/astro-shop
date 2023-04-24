@@ -80,8 +80,8 @@ export default function Product(props: Props) {
             </div>
 
             <Tab.Panels className="aspect-h-1 aspect-w-1 w-full">
-              {product.images.map((image) => (
-                <Tab.Panel key={image.id}>
+              {product.images.map((image, i) => (
+                <Tab.Panel key={image.name || i}>
                   <img
                     src={image.url}
                     alt={image.alt}
