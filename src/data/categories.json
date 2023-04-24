@@ -16,5 +16,11 @@
     "name": "Laptops",
     "href": "laptops",
     "imageSrc": "/images/laptops-category.png"
+  },
+  {
+    "id": 4,
+    "name": "All Products",
+    "href": "all",
+    "imageSrc": ""
   }
 ]

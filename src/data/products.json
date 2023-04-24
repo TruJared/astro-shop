@@ -11,11 +11,11 @@
     "href": "apple-iphone-13-pro-max",
     "images": [
       {
-        "url": "https://images.unsplash.com/photo-1671038374738-e0525bbc36f6?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80",
+        "url": "/images/products/iphone-1.png",
         "alt": "iPhone 13 Pro Max Image"
       },
       {
-        "url": "https://images.unsplash.com/photo-1664478546384-d57ffe74a78c?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80",
+        "url": "/images/products/iphone-2.png",
         "alt": "iPhone 13 Pro Max Image"
       }
     ],
@@ -45,16 +45,31 @@
       {
         "name": "Washed Black",
         "bgColor": "bg-gray-700",
-        "selectedColor": "ring-gray-700"
+        "selectedColor": "ring-gray-500"
       },
       {
         "name": "White",
         "bgColor": "bg-white",
-        "selectedColor": "ring-gray-400"
+        "selectedColor": "ring-gray-500"
       },
       {
-        "name": "Washed Gray",
-        "bgColor": "bg-gray-500",
+        "name": "Silver",
+        "bgColor": "bg-gray-200",
+        "selectedColor": "ring-gray-500"
+      },
+      {
+        "name": "Orange",
+        "bgColor": "bg-accent-300",
+        "selectedColor": "ring-gray-500"
+      },
+      {
+        "name": "Blue",
+        "bgColor": "bg-primary-800",
+        "selectedColor": "ring-gray-500"
+      },
+      {
+        "name": "Dark Blue",
+        "bgColor": "bg-secondary-900",
         "selectedColor": "ring-gray-500"
       }
     ]
@@ -71,11 +86,11 @@
     "href": "samsung-galaxy-s21-ultra",
     "images": [
       {
-        "url": "https://images.unsplash.com/photo-1610792516820-2bff50c652a2?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80",
+        "url": "/images/products/galaxy-1.png",
         "alt": "Galaxy S22 Ultra Image"
       },
       {
-        "url": "https://images.unsplash.com/photo-1610792516286-524726503fb2?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80",
+        "url": "/images/products/galaxy-2.png",
         "alt": "Galaxy S22 Ultra Image"
       }
     ],
@@ -103,18 +118,18 @@
     ],
     "colors": [
       {
-        "name": "Washed Black",
-        "bgColor": "bg-gray-700",
-        "selectedColor": "ring-gray-700"
+        "name": "Orange",
+        "bgColor": "bg-accent-300",
+        "selectedColor": "ring-gray-500"
       },
       {
-        "name": "White",
-        "bgColor": "bg-white",
-        "selectedColor": "ring-gray-400"
+        "name": "Blue",
+        "bgColor": "bg-primary-800",
+        "selectedColor": "ring-gray-500"
       },
       {
-        "name": "Washed Gray",
-        "bgColor": "bg-gray-500",
+        "name": "Dark Blue",
+        "bgColor": "bg-secondary-900",
         "selectedColor": "ring-gray-500"
       }
     ]
@@ -131,11 +146,11 @@
     "href": "steam-deck",
     "images": [
       {
-        "url": "https://images.unsplash.com/photo-1665608130535-d9a71bce53b9?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1480&q=80",
+        "url": "/images/products/steamDeck-1.png",
         "alt": "Steam Deck Image"
       },
       {
-        "url": "https://images.unsplash.com/photo-1656662962127-d8344d924d74?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80",
+        "url": "/images/products/steamDeck-2.png",
         "alt": "Steam Deck Image"
       }
     ],
@@ -143,16 +158,21 @@
       {
         "name": "Washed Black",
         "bgColor": "bg-gray-700",
-        "selectedColor": "ring-gray-700"
+        "selectedColor": "ring-gray-500"
       },
       {
         "name": "White",
         "bgColor": "bg-white",
-        "selectedColor": "ring-gray-400"
+        "selectedColor": "ring-gray-500"
       },
       {
-        "name": "Washed Gray",
-        "bgColor": "bg-gray-500",
+        "name": "Blue",
+        "bgColor": "bg-primary-800",
+        "selectedColor": "ring-gray-500"
+      },
+      {
+        "name": "Dark Blue",
+        "bgColor": "bg-secondary-900",
         "selectedColor": "ring-gray-500"
       }
     ],
@@ -191,11 +211,11 @@
     "href": "apple-macbook-pro-16-inch",
     "images": [
       {
-        "url": "https://images.unsplash.com/photo-1539376248633-cf94fa8b7bd8?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80",
+        "url": "/images/products/macBook-1.png",
         "alt": "MacBook Pro Image"
       },
       {
-        "url": "https://images.unsplash.com/photo-1525547719571-a2d4ac8945e2?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=928&q=80",
+        "url": "/images/products/macBook-2.png",
         "alt": "MacBook Pro Image"
       }
     ],
@@ -203,16 +223,21 @@
       {
         "name": "Washed Black",
         "bgColor": "bg-gray-700",
-        "selectedColor": "ring-gray-700"
+        "selectedColor": "ring-gray-500"
       },
       {
         "name": "White",
         "bgColor": "bg-white",
-        "selectedColor": "ring-gray-400"
+        "selectedColor": "ring-gray-500"
       },
       {
-        "name": "Washed Gray",
-        "bgColor": "bg-gray-500",
+        "name": "Silver",
+        "bgColor": "bg-gray-200",
+        "selectedColor": "ring-gray-500"
+      },
+      {
+        "name": "Orange",
+        "bgColor": "bg-accent-300",
         "selectedColor": "ring-gray-500"
       }
     ],
@@ -251,11 +276,11 @@
     "href": "microsoft-surface-pro-9",
     "images": [
       {
-        "url": "https://images.unsplash.com/photo-1617780421515-08fae9caa171?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1332&q=80",
+        "url": "/images/products/surface-1.png",
         "alt": "Surface Laptop Image"
       },
       {
-        "url": "https://images.unsplash.com/photo-1617780421544-c5575a324c47?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1332&q=80",
+        "url": "/images/products/surface-2.png",
         "alt": "Surface Laptop Image"
       }
     ],
@@ -263,16 +288,31 @@
       {
         "name": "Washed Black",
         "bgColor": "bg-gray-700",
-        "selectedColor": "ring-gray-700"
+        "selectedColor": "ring-gray-500"
       },
       {
         "name": "White",
         "bgColor": "bg-white",
-        "selectedColor": "ring-gray-400"
+        "selectedColor": "ring-gray-500"
       },
       {
-        "name": "Washed Gray",
-        "bgColor": "bg-gray-500",
+        "name": "Silver",
+        "bgColor": "bg-gray-200",
+        "selectedColor": "ring-gray-500"
+      },
+      {
+        "name": "Orange",
+        "bgColor": "bg-accent-300",
+        "selectedColor": "ring-gray-500"
+      },
+      {
+        "name": "Blue",
+        "bgColor": "bg-primary-800",
+        "selectedColor": "ring-gray-500"
+      },
+      {
+        "name": "Dark Blue",
+        "bgColor": "bg-secondary-900",
         "selectedColor": "ring-gray-500"
       }
     ],
