@@ -22,7 +22,4 @@ Astro Shop is bare bones static e-commerce site built with Astro, React, Tailwin
 
 
 
-<img src="public/images/logos/astro-icon-dark.svg" width="60px" height="60px" style="background-color:white; padding:20px" />
-<img src="public/images/logos/React-icon.png" width=" 90px" style="padding: 20px" />
-<img src="public/images/logos/Tailwind_CSS_logo.png" width="90px" style="padding: 20px" />
-<img src="public/images/logos/Typescript.png" width=" 90px" style="padding: 20px" />
+<img src="public/images/score.png" >
